@@ -1,0 +1,16 @@
+.cta {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $cta-background-color;
+  color: $cta-color;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  &:hover {
+    background-color: $cta-active-background-color;
+    color: $cta-active-color;
+  }
+}

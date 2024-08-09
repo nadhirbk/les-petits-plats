@@ -1,0 +1,25 @@
+.search-bar {
+  border-radius: 11px;
+  height: 72px;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 0 10px 0 35px;
+  background-color: $background-color-secondary;
+  & input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+  & .delete-button {
+    color: $color-text-secondary;
+    cursor: pointer;
+    display: none;
+  }
+  &:hover > .delete-button {
+    display: block;
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Les petits plats" />
+    <title>Les Petits Plats</title>
+    <script type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <header class="layout-header">
+      <div class="logo">Les petits plats</div>
+      <div class="content">
+        <div class="title">
+          <h1>
+            Cherchez parmi plus de 1500 recettes du quotidien,simples et
+            délicieuses
+          </h1>
+        </div>
+        <div class="search-bar">
+          <input
+            type="text"
+            placeholder="Rechercher une recette, un ingrédient, ..."
+          />
+          <div class="delete-button">X</div>
+          <button class="cta">Loupe</button>
+        </div>
+      </div>
+    </header>
+    <main class="layout-main">
+      <div class="tools">
+        <div class="collapsers">
+          <div class="collapser">Ingrédients</div>
+          <div class="collapser">Appareils</div>
+          <div class="collapser">Ustensiles</div>
+        </div>
+        <div class="counter">50 recettes</div>
+      </div>
+      <div class="content" id="recepes"></div>
+    </main>
+
+    <!--Template card-->
+
+    <template id="recepe">
+      <figure class="card">
+        <img src="" alt="" />
+        <div class="tag">10min</div>
+        <figcaption>
+          <h2>Limonade de coco</h2>
+          <div class="content">
+            <div class="category">
+              <h3>Recette</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+                blanditiis molestias? Doloribus dolores voluptates id, quasi
+                debitis, eius dolor tempora molestiae inventore dolorum, ab
+                nobis.
+              </p>
+            </div>
+            <div class="category">
+              <h3>Ingrédients</h3>
+              <div class="grid">
+                <div class="item">
+                  <div class="name">lait de coco</div>
+                  <div class="quantity">400ml</div>
+                </div>
+                <div class="item">
+                  <div class="name">lait de coco</div>
+                  <div class="quantity">400ml</div>
+                </div>
+                <div class="item">
+                  <div class="name">lait de coco</div>
+                  <div class="quantity">400ml</div>
+                </div>
+                <div class="item">
+                  <div class="name">lait de coco</div>
+                  <div class="quantity">400ml</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </template>
+  </body>
+</html>
