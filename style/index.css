@@ -101,6 +101,8 @@ h3 {
   min-width: 250px;
   background: rgba(0, 0, 0, 0.3333333333);
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card .tag {
   position: absolute;
